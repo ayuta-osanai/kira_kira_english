@@ -1,0 +1,7 @@
+AuthUserFile /home/ayuta1983/ayuta1983.xsrv.jp/public_html/.htpasswd
+AuthGroupFile /dev/null
+AuthType Basic
+require valid-user
+<Files ~ “^.(htpasswd|htaccess)$”>
+deny from all
+</Files>
